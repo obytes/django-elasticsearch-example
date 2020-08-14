@@ -15,6 +15,8 @@ Now visit http://127.0.0.1:8000/
 Run:
 
 ```bash
+docker-compose run web python manage.py migrate
+
 docker-compose run web python manage.py load_posts 20
 ```
 
